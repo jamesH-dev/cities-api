@@ -20,4 +20,7 @@ public class CityService {
 
     public Optional<City> getOne(Long id){ return cityRepository.findById(id); }
 
+    public Optional<Page<City>> findByUfId(Integer uf, Pageable page) {
+        return cityRepository.findByUfId(uf, page);
+    }
 }

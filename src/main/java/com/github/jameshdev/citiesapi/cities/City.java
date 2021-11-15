@@ -22,8 +22,8 @@ public class City {
     @Column (name = "nome")
     private String name;
 
-    /*@Column (name = "uf")
-    private Integer ufId;*/
+    @Column (name = "uf", insertable = false, updatable = false)
+    private Integer ufId;
 
     @ManyToOne
     @JoinColumn (name = "uf", referencedColumnName = "id")
@@ -51,9 +51,9 @@ public class City {
         return name;
     }
 
-    /*public Integer getUfId() {
+    public Integer getUfId() {
         return ufId;
-    }*/
+    }
 
     public State getState() {
         return state;
