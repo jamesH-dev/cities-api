@@ -1,6 +1,7 @@
-package com.github.jameshdev.citiesapi.countries;
+package com.github.jameshdev.citiesapi.controllers;
 
-import com.github.jameshdev.citiesapi.countries.services.CountryService;
+import com.github.jameshdev.citiesapi.entities.Country;
+import com.github.jameshdev.citiesapi.services.CountryService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
-package com.github.jameshdev.citiesapi.cities;
+package com.github.jameshdev.citiesapi.entities;
 
-import com.github.jameshdev.citiesapi.states.State;
+import com.github.jameshdev.citiesapi.entities.State;
 import com.github.jameshdev.citiesapi.utils.PointType;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

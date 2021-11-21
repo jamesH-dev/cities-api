@@ -1,7 +1,7 @@
-package com.github.jameshdev.citiesapi.cities.services;
+package com.github.jameshdev.citiesapi.services;
 
-import com.github.jameshdev.citiesapi.cities.City;
-import com.github.jameshdev.citiesapi.cities.repository.CityRepository;
+import com.github.jameshdev.citiesapi.entities.City;
+import com.github.jameshdev.citiesapi.repositories.CityRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

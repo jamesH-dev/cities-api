@@ -1,6 +1,6 @@
-package com.github.jameshdev.citiesapi.states;
+package com.github.jameshdev.citiesapi.entities;
 
-import com.github.jameshdev.citiesapi.countries.Country;
+import com.github.jameshdev.citiesapi.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

@@ -1,6 +1,6 @@
-package com.github.jameshdev.citiesapi.cities.repository;
+package com.github.jameshdev.citiesapi.repositories;
 
-import com.github.jameshdev.citiesapi.cities.City;
+import com.github.jameshdev.citiesapi.entities.City;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

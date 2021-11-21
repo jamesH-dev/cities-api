@@ -1,6 +1,6 @@
-package com.github.jameshdev.citiesapi.distances;
+package com.github.jameshdev.citiesapi.controllers;
 
-import com.github.jameshdev.citiesapi.distances.services.DistanceService;
+import com.github.jameshdev.citiesapi.services.DistanceService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
